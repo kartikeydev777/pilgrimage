@@ -118,6 +118,11 @@
               background-color:transparent;
               border-radius:50px;
             }
+
+            a{
+              text-decoration:none;
+              color:black;
+            }
         @media only screen and (max-width: 600px) {
             .event-container {
                 width: 100%;
@@ -143,6 +148,7 @@
     
     <section class="calendar-box container">
       <h3>Event Calender</h3>
+      <p class="" style="color:gray;">Here you can check our upcoming events</p>
       <hr>
       <div id="calendar" class="calendar"></div>
     </section>
